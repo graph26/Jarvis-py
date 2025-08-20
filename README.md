@@ -10,20 +10,6 @@ The main project challenges we try to achieve is:
 Our backend stack is 🐍 **[Python](https://www.rust-lang.org/)** with ❤️ **[Eel](https://pypi.org/project/Eel/)**.<br>
 For the frontend we use ⚡️ **HTML & CSS** + 🛠️ **JS**.
 
-# JARVIS Voice Assistant
-
-![We are NOT limited by the technology of our time!](poster.jpg)
-
-`Jarvis` - is a voice assistant made as an experiment using neural networks for things like **STT/TTS/Wake Word/NLU** etc.
-
-The main project challenges we try to achieve is:
- - 100% offline *(no cloud)*
- - Open source *(full transparency)*
- - No data collection *(we respect your privacy)*
-
-Our backend stack is 🦀 **[Rust](https://www.rust-lang.org/)** with ❤️ **[Tauri](https://tauri.app/)**.<br>
-For the frontend we use ⚡️ **[Vite](https://vitejs.dev/)** + 🛠️ **[Svelte](https://svelte.dev/)**.
-
 *Other libraries, tools and packages can be found in source code.*
 
 ## Neural Networks
