@@ -7,7 +7,7 @@ The main project challenges we try to achieve is:
  - Open source *(full transparency)*
  - No data collection *(we respect your privacy)*
 
-Our backend stack is 🐍 **[Python](https://www.rust-lang.org/)** with ❤️ **[Eel](https://pypi.org/project/Eel/)**.<br>
+Our backend stack is 🐍 **[Python](https://www.python.org/downloads/)** with ❤️ **[Eel](https://pypi.org/project/Eel/)**.<br>
 For the frontend we use ⚡️ **HTML & CSS** + 🛠️ **JS**.
 
 *Other libraries, tools and packages can be found in source code.*
