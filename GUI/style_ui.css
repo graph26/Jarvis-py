@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+html{
+height: 100%;
+}
+body{
+width: 100%;
+margin: 0;
+font-family: poppins, Helvetica, sans-serif;
+font-weight: 400;
+background:#0b0624;
+color:white;
+}
+.bodyImg0{
+background-image: url('d7fa2e8385ce14882903fd3c54061849.gif');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.container{
+margin: 0 auto;
+width: 100%;
+height: 100px;
+max-width: 500px;
+text-align: center;
+font-size: 0;
+}
+h1{
+    margin: 0;
+    padding: 15px 15px 0 15px;
+    font-size: 30px;
+    }
+h2{
+       margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 15px;
+        text-align: center;
+        }
+            
+/* Button Css */
+
+.btn{
+/* position: absolute;*/
+display: inline-block;
+margin: 15px 3px;
+padding: 10px 17px;
+text-align: center;
+font-size: 16px;
+letter-spacing: 1px;
+text-decoration: none;
+color: #ffffff;
+background: mediumseagreen;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+transition: ease-out 0.5s;
+}
+
+/* Slide 1 */
+.btn-slide-1{
+box-shadow: inset 0 0 0 0 #303439;
+top: 20px;
+right: 500px;
+}
+.btn-slide-1:hover{
+box-shadow: inset 0 100px 0 0 #303439;
+}
+
+/* Slide 2 */
+.btn-slide-2{
+box-shadow: inset 0 0 0 0 #303439;
+top: 20px;
+right: 330px;
+}
+.btn-slide-2:hover{
+box-shadow: inset 0 -100px 0 0 #303439;
+}
+
+/* Slide 3 */
+.btn-slide-3{
+box-shadow: inset 0 0 0 0 #303439;
+top: 20px;
+right: 144px;
+}
+.btn-slide-3:hover{
+box-shadow: inset 200px 0 0 0 #303439;
+}
+.clearfix{
+    clear: both;
+}
+.main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+.gif-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            text-align: center;
+            top: 14%;
+        }
+
+ .gif-container img {
+            width: 100%;
+            border-radius: 15px;
+}
+
+@media (min-width: 720px) {
+    .gif-container {
+        right: -10%;
+    }
+}
+
+@media (min-width: 930px) {
+    .gif-container {
+        right: -21%;
+    }
+}
+
+@media (min-width: 1430px) {
+    .gif-container {
+        left: 31%;
+    }
+}
+
+@media (min-width: 1703px) {
+    .gif-container {
+        left: 33%
+    }
+}
